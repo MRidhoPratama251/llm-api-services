@@ -1,0 +1,54 @@
+{
+    "gemma-12b": [
+        "llama-server.exe",
+        "-m",
+        "D:\\Proyek Mandiri\\Kajian-AI-Agent\\LLM_core\\gguf_model\\gemma4_12b_it_qat_google\\gemma-4-12b-it-qat-q4_0.gguf",
+        "--mmproj",
+        "D:\\Proyek Mandiri\\Kajian-AI-Agent\\LLM_core\\gguf_model\\gemma4_12b_it_qat_google\\mmproj-gemma-4-12b-it-qat-q4_0.gguf",
+        "-c",
+        "50000",
+        "-ngl",
+        "35",
+        "--port",
+        "8080"
+    ],
+    "qwen-9b": [
+        "llama-server.exe",
+        "-m",
+        "D:\\Proyek Mandiri\\Kajian-AI-Agent\\LLM_core\\gguf_model\\qwen3.5_9B_claude4.6_opus_reasoning\\Qwen3.5-9B.Q4_K_M.gguf",
+        "--mmproj",
+        "D:\\Proyek Mandiri\\Kajian-AI-Agent\\LLM_core\\gguf_model\\qwen3.5_9B_claude4.6_opus_reasoning\\mmproj-BF16.gguf",
+        "-c",
+        "90000",
+        "-ngl",
+        "35",
+        "--port",
+        "8080"
+    ],
+    "qwen-4b": [
+        "llama-server.exe",
+        "-m",
+        "D:\\Proyek Mandiri\\Kajian-AI-Agent\\LLM_core\\gguf_model\\qwen3.5_4B_gguf_unsloth\\Qwen3.5-4B-UD-Q6_K_XL.gguf",
+        "--mmproj",
+        "D:\\Proyek Mandiri\\Kajian-AI-Agent\\LLM_core\\gguf_model\\qwen3.5_4B_gguf_unsloth\\mmproj-F32.gguf",
+        "-c",
+        "100000",
+        "-ngl",
+        "35",
+        "--port",
+        "8080"
+    ],
+    "qwen-4b-mtp": [
+        "llama-server.exe",
+        "-m",
+        "D:\\Proyek Mandiri\\Kajian-AI-Agent\\LLM_core\\gguf_model\\qwen3.5_4B_gguf_unsloth_MTP\\Qwen3.5-4B-UD-Q6_K_XL.gguf",
+        "--mmproj",
+        "D:\\Proyek Mandiri\\Kajian-AI-Agent\\LLM_core\\gguf_model\\qwen3.5_4B_gguf_unsloth_MTP\\mmproj-BF16.gguf",
+        "-c",
+        "100000",
+        "-ngl",
+        "35",
+        "--port",
+        "8080"
+    ]
+}
